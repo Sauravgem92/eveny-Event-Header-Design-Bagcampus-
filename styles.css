@@ -1,0 +1,253 @@
+:root{
+    --font-family: 'Montserrat Alternates', sans-serif;
+    
+    /* Color */
+    --white:#fff;
+    --dark-blue:#00052F;
+    --light-blue:#77778F;
+    --orange:#FA865F;
+    --sky-blue:#77D3DE;
+    --yellow:#FDC64F;
+    --light-green:#97B591;
+}
+body{
+    background-color: #FFFAF6;
+    color: var(--dark-blue);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* -------------------------------------------------------NAVBAR------------------------------------------------------------------- */
+.navbar{
+   min-height: 7vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   padding: 1rem 7rem;
+   margin-bottom: 4rem;
+}
+.nav-link{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 38rem;
+}
+.nav-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Eng{
+    margin-right: 1.5rem;
+    color: #77778F;
+}
+.trial-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.5rem;
+    width: 9rem;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    font-weight: 500;
+    transition: 0.3s linear;
+  }
+
+/* --------------------------------------------------------------EVENTS---------------------------------------------------------------- */
+
+.evn-details{
+    display: flex;
+    padding: 0rem 7rem;
+    padding-right: 4rem;
+}
+.tag-line{
+    line-height: 1;
+    
+}
+.left-box{
+    border-right: 3px solid #d9d9db;
+    padding-right: 10rem;
+}
+.right-box{
+    padding: 1rem 7rem;
+}
+.evn-nums{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clock{
+    margin-bottom: 2rem;
+}
+
+
+
+/* -------------------------------------------------------------Cards----------------------------------------------------------------------- */
+
+.cards-box{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 5rem;
+ padding-left: 1.5rem;
+}
+.card{
+   height: 28vh;
+   width: 18vw;
+   color: var(--white);
+   padding: 1.5rem 1.8rem;
+}
+.orange-c{
+    background-color: var(--orange);
+    border-radius: 28px;
+}
+.sky-c{
+    background-color:var(--sky-blue);
+    border-radius: 28px;
+}
+.yellow-c{
+     background-color: var(--yellow);
+     border-radius: 28px;
+}
+.green-c{
+     background-color: var(--light-green);
+     border-radius: 28px;
+     border-top-right-radius: 0;
+     border-bottom-right-radius: 0; 
+}
+.speaker-box{
+    background-color: #FBCDBE;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.reward-box{
+    background-color: #8DE1EB;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+.insta-box{
+    background-color: #FEE7BE;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.party-box{
+    background-color: #CFE1CB;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+h5{
+    line-height: 1.3rem;
+}
+
+/* ---------------------------------------------------Social Media----------------------------------------------------------------- */
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+}
+.links{
+    display: flex;
+}
+.logo-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #C5C2C9;
+    border-radius: 100%;
+    height: 9vh;
+    width: 4vw;
+    margin: 1rem;
+}
+
+.evn-reg{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+    padding-bottom: 0;
+}
+.blue-card{
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: space-between;
+    width: 18vw;
+    color: #fff;
+    border-top-right-radius:28px;
+    border-top-left-radius:28px;
+    padding: 0 1rem;
+} 
+.org-card{
+    background-color: var(--orange);
+   display: flex;
+   justify-content: space-between;
+   width: 18vw;
+   border-top-right-radius:28px;
+    border-top-left-radius:28px;
+    padding: 0 1rem;
+}
+.white-card{
+    background-color: var(--white);
+   display: flex;
+   justify-content: space-between;
+   width: 18vw;
+   border-top-right-radius:28px;
+   border-top-left-radius:28px;
+   padding: 0 1rem;
+}
+
+.reg-btn1{
+    background-color: #54566F;
+    height: 5vh;
+    width: 7vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.reg-btn2{
+    background-color: #FFA485;
+    height: 5vh;
+    width: 7vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.reg-btn3{
+    background-color: #1F2243;
+    height: 5vh;
+    width: 7vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
