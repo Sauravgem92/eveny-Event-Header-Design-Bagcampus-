@@ -26,16 +26,20 @@ body{
    margin-bottom: 4rem;
 }
 .nav-link{
-    flex-basis: 35%;
+    /* flex-basis: 20%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 35rem;
+}
+.nav-li{
+    display: flex;
+    margin-right: 2rem;
 }
 .nav-btn{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-grow: 1;
+    align-items:center;
+    justify-content:end;
 }
 .Eng{
     margin-right: 1.5rem;
@@ -89,6 +93,7 @@ body{
 .cards-box{
  display: flex;
  justify-content: space-between;
+ width: 100%;
  margin-top: 5rem;
  padding-left: 1.5rem;
 }
@@ -224,6 +229,7 @@ h5{
     background-color: #54566F;
     height: 5vh;
     width: 7vw;
+    font-size: .8vw;
     color: #fff;
     display: flex;
     align-items: center;
@@ -235,6 +241,7 @@ h5{
     background-color: #FFA485;
     height: 5vh;
     width: 7vw;
+    font-size: .8vw;
     color: #fff;
     display: flex;
     align-items: center;
@@ -245,9 +252,32 @@ h5{
     background-color: #1F2243;
     height: 5vh;
     width: 7vw;
+    font-size: .8vw;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+}
+
+
+@media(max-width:1316px){
+   body{
+       /* background-color: red; */
+   }
+   .nav-link{
+       flex-direction: column;
+   }
+   .evn-reg{
+       padding: 1rem 2.8rem;
+   }
+   .white-card{
+       flex-direction: column;
+   }
+   .org-card{
+       flex-direction: column;        
+   }
+   .blue-card{
+       flex-direction: column;
+   }
 }
