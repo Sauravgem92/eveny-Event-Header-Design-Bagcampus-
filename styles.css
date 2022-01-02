@@ -22,7 +22,7 @@ body{
    width: 83vw;
    display: flex;
    align-items: center;
-   padding: 1rem 7rem;
+   padding: 1% 7%;
    margin-bottom: 4rem;
 }
 .nav-link{
@@ -38,7 +38,7 @@ body{
 .nav-btn{
     display: flex;
     flex-grow: 1;
-    align-items:center;
+    /* align-items:center; */
     justify-content:end;
 }
 .Eng{
@@ -55,7 +55,6 @@ body{
     text-decoration: none;
     background-color: var(--dark-blue);
     color: var(--white);
-    font-weight: 500;
     transition: 0.3s linear;
   }
 
@@ -63,8 +62,8 @@ body{
 
 .evn-details{
     display: flex;
-    padding: 0rem 7rem;
-    padding-right: 4rem;
+    padding: 0% 7%;
+    padding-right: 4%;
 }
 .tag-line{
     line-height: 1;
@@ -72,10 +71,10 @@ body{
 }
 .left-box{
     border-right: 3px solid #d9d9db;
-    padding-right: 10rem;
+    padding-right: 15%;
 }
 .right-box{
-    padding: 1rem 7rem;
+    padding: 1% 7%;
 }
 .evn-nums{
     display: flex;
@@ -95,14 +94,22 @@ body{
  justify-content: space-between;
  width: 100%;
  margin-top: 5rem;
- padding-left: 1.5rem;
+ padding-left: 1.5%;
 }
 .card{
-   height: 28vh;
-   width: 18vw;
+   height: 28%;
+   width: 18%;
    color: var(--white);
-   padding: 1.5rem 1.8rem;
+   padding: 2% 1.8%;
 }
+/* .card-1-2{
+    display: flex;
+    
+}
+.card-3-4{
+    display: flex;
+   
+} */
 .orange-c{
     background-color: var(--orange);
     border-radius: 28px;
@@ -167,6 +174,7 @@ body{
 }
 h5{
     line-height: 1.3rem;
+    margin-top: 0;
 }
 
 /* ---------------------------------------------------Social Media----------------------------------------------------------------- */
@@ -174,7 +182,7 @@ h5{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 7rem;
+    padding: 1% 7%;
 }
 .links{
     display: flex;
@@ -185,44 +193,43 @@ h5{
     justify-content: center;
     border: 2px solid #C5C2C9;
     border-radius: 100%;
-    height: 8vh;
-    width: 4vw;
+    padding: 4%;
     margin: 1rem;
 }
 
 .evn-reg{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 7rem;
+    padding: 1% 7%;
     padding-bottom: 0;
 }
 .blue-card{
     background-color: var(--dark-blue);
     display: flex;
     justify-content: space-between;
-    width: 18vw;
+    width: 22%;
     color: #fff;
     border-top-right-radius:28px;
     border-top-left-radius:28px;
-    padding: 0 1rem;
+    padding: 1.5rem 1rem;
 } 
 .org-card{
     background-color: var(--orange);
    display: flex;
    justify-content: space-between;
-   width: 18vw;
+   width: 22%;
    border-top-right-radius:28px;
     border-top-left-radius:28px;
-    padding: 0 1rem;
+    padding: 1.5rem 1rem;
 }
 .white-card{
     background-color: var(--white);
    display: flex;
    justify-content: space-between;
-   width: 18vw;
+   width: 22%;
    border-top-right-radius:28px;
    border-top-left-radius:28px;
-   padding: 0 1rem;
+   padding: 1.5rem 1rem;
 }
 
 .reg-btn1{
@@ -262,12 +269,14 @@ h5{
 
 
 @media(max-width:1316px){
-   body{
-       /* background-color: red; */
+   .nav-bar{
+       padding:0.5rem 4rem ;
    }
-   .nav-link{
-       flex-direction: column;
+   .clock img{
+      width: 60%;
+      /* height: 60%; */
    }
+   
    .evn-reg{
        padding: 1rem 2.8rem;
    }
@@ -280,4 +289,23 @@ h5{
    .blue-card{
        flex-direction: column;
    }
+}
+
+@media(max-width:880px){
+    .nav-link{
+        flex-direction: column;
+        margin-right: 40%;
+    }
+    .nav-btn{
+      flex-direction: column;
+      /* justify-content: end; */
+      align-items: center;
+    }
+    .cards-box{
+        flex-direction: column;
+    }
+    .card{
+        width: 95%;
+        margin-bottom: 3%;
+    }
 }
