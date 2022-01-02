@@ -289,12 +289,15 @@ h5{
    .blue-card{
        flex-direction: column;
    }
+   .green-c{
+    border-radius: 28px;
+   }
 }
 
 @media(max-width:880px){
     .nav-link{
         flex-direction: column;
-        margin-right: 40%;
+        margin-right: 30%;
     }
     .nav-btn{
       flex-direction: column;
