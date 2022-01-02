@@ -102,14 +102,6 @@ body{
    color: var(--white);
    padding: 2% 1.8%;
 }
-/* .card-1-2{
-    display: flex;
-    
-}
-.card-3-4{
-    display: flex;
-   
-} */
 .orange-c{
     background-color: var(--orange);
     border-radius: 28px;
@@ -131,7 +123,7 @@ body{
 .speaker-box{
     background-color: #FBCDBE;
     height: 10vh;
-    width: 10vh;
+    width: 6vw;
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -141,7 +133,7 @@ body{
 .reward-box{
     background-color: #8DE1EB;
     height: 10vh;
-    width: 10vh;
+    width: 6vw;
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -153,7 +145,7 @@ body{
 .insta-box{
     background-color: #FEE7BE;
     height: 10vh;
-    width: 10vh;
+    width: 6vw;
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -164,7 +156,7 @@ body{
 .party-box{
     background-color: #CFE1CB;
     height: 10vh;
-    width: 10vh;
+    width: 6vw;
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -292,23 +284,64 @@ h5{
    .green-c{
     border-radius: 28px;
    }
+   .speaker-box{
+      width: 7vw;       
+   }
+   .reward-box{
+      width: 7vw;
+   }
+   .insta-box{
+      width: 7vw;
+   }
+   .party-box{
+      width: 7vw;
+   }
+   .reg-btn1{
+     height: 4vh;
+   }
+   .reg-btn2{
+      height: 4vh;
+   }
+   .reg-btn3{
+      height: 4vh;
+   }
 }
 
 @media(max-width:880px){
     .nav-link{
         flex-direction: column;
-        margin-right: 30%;
+        margin-right: 25%;
     }
     .nav-btn{
       flex-direction: column;
-      /* justify-content: end; */
       align-items: center;
     }
     .cards-box{
         flex-direction: column;
     }
     .card{
-        width: 95%;
+        width: 100%;
         margin-bottom: 3%;
     }
+    .speaker-box{
+        width: 12vw;       
+     }
+     .reward-box{
+        width: 12vw;
+     }
+     .insta-box{
+        width: 12vw;
+     }
+     .party-box{
+        width: 12vw;
+     }
+     .reg-btn1{
+        height: 2vh;
+      }
+      .reg-btn2{
+         height: 2vh;
+      }
+      .reg-btn3{
+         height: 2vh;
+      }
 }
