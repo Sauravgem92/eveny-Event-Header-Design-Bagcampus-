@@ -285,32 +285,39 @@ h5{
     border-radius: 28px;
    }
    .speaker-box{
-      width: 7vw;       
+      width: 7vw;
+      height: 9vh;       
    }
    .reward-box{
       width: 7vw;
+      height: 9vh;
    }
    .insta-box{
       width: 7vw;
+      height: 9vh;
    }
    .party-box{
       width: 7vw;
+      height: 9vh;
    }
    .reg-btn1{
      height: 4vh;
+     width: 7vw;
    }
    .reg-btn2{
       height: 4vh;
+      width: 7vw;
    }
    .reg-btn3{
       height: 4vh;
+      width: 7vw;
    }
 }
 
 @media(max-width:880px){
     .nav-link{
         flex-direction: column;
-        margin-right: 25%;
+        margin-right: 22%;
     }
     .nav-btn{
       flex-direction: column;
@@ -324,24 +331,31 @@ h5{
         margin-bottom: 3%;
     }
     .speaker-box{
-        width: 12vw;       
+        width: 12vw;
+        height: 11vh;       
      }
      .reward-box{
         width: 12vw;
+        height: 11vh;
      }
      .insta-box{
         width: 12vw;
+        height: 11vh;
      }
      .party-box{
         width: 12vw;
+        height: 11vh;
      }
      .reg-btn1{
         height: 2vh;
+        width: 7vw;
       }
       .reg-btn2{
          height: 2vh;
+         width: 7vw;
       }
       .reg-btn3{
          height: 2vh;
+         width: 7vw;
       }
 }
