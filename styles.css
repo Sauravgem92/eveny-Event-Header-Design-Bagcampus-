@@ -122,8 +122,8 @@ body{
 }
 .speaker-box{
     background-color: #FBCDBE;
-    height: 4rem;
-    width: 30%;
+    height: 10vh;
+    width: 6vw;
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -132,8 +132,8 @@ body{
 }
 .reward-box{
     background-color: #8DE1EB;
-    height: 4rem;
-    width: 30%;
+    height: 10vh;
+    width: 6vw;
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -144,8 +144,8 @@ body{
 }
 .insta-box{
     background-color: #FEE7BE;
-    height: 4rem;
-    width: 30%;
+    height: 10vh;
+    width: 6vw;
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -155,8 +155,8 @@ body{
 }
 .party-box{
     background-color: #CFE1CB;
-    height: 4rem;
-    width: 30%;
+    height: 10vh;
+    width: 6vw;
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -199,7 +199,7 @@ h5{
     background-color: var(--dark-blue);
     display: flex;
     justify-content: space-between;
-    width: 22%;
+    width: 18vw;
     color: #fff;
     border-top-right-radius:28px;
     border-top-left-radius:28px;
@@ -209,7 +209,7 @@ h5{
     background-color: var(--orange);
    display: flex;
    justify-content: space-between;
-   width: 22%;
+   width: 18vw;
    border-top-right-radius:28px;
     border-top-left-radius:28px;
     padding: 1.5rem 1rem;
@@ -218,7 +218,7 @@ h5{
     background-color: var(--white);
    display: flex;
    justify-content: space-between;
-   width: 22%;
+   width: 18vw;
    border-top-right-radius:28px;
    border-top-left-radius:28px;
    padding: 1.5rem 1rem;
@@ -251,7 +251,7 @@ h5{
     background-color: #1F2243;
     height: 5vh;
     width: 7vw;
-    font-size: .8vw;
+    font-size: 0.8vw;
     color: #fff;
     display: flex;
     align-items: center;
@@ -266,7 +266,6 @@ h5{
    }
    .clock img{
       width: 60%;
-      /* height: 60%; */
    }
    
    .evn-reg{
@@ -284,7 +283,7 @@ h5{
    .green-c{
     border-radius: 28px;
    }
-   /* .speaker-box{
+   .speaker-box{
       width: 7vw;
       height: 9vh;       
    }
@@ -299,18 +298,25 @@ h5{
    .party-box{
       width: 7vw;
       height: 9vh;
-   } */
+   }
    .reg-btn1{
-     height: 4vh;
-     width: 7vw;
+       font-size: 1vw;
+     height: 5vh;
+     width: 10vw;
    }
    .reg-btn2{
-      height: 4vh;
-      width: 7vw;
+       font-size: 1vw;
+      height: 5vh;
+      width: 10vw;
    }
    .reg-btn3{
-      height: 4vh;
-      width: 7vw;
+       font-size: 1vw;
+      height: 5vh;
+      width: 10vw;
+   }
+   .reg-content{
+       display: flex;
+       justify-content: center;
    }
 }
 
@@ -331,7 +337,7 @@ h5{
         width: 100%;
         margin-bottom: 3%;
     }
-    /* .speaker-box{
+     .speaker-box{
         width: 12vw;
         height: 9vh;       
      }
@@ -347,34 +353,25 @@ h5{
         
         width: 12vw;
         height: 9vh;
-     } */
-     .speaker-box{
-        width: 11%;
-        height: 3.5rem;       
      }
-     .reward-box{
-        width: 11%;
-        height: 3.5rem;
-     }
-     .insta-box{
-        width: 11%;
-        height: 3.5rem;
-     }
-     .party-box{
-        
-        width: 11%;
-        height: 3.5rem;
-     }
+     .box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
      .reg-btn1{
-        height: 2vh;
-        width: 7vw;
+        font-size: 1.2vw;
+        height: 5vh;
+        width: 12vw;
       }
       .reg-btn2{
-         height: 2vh;
-         width: 7vw;
+        font-size: 1.2vw;
+        height: 5vh;
+        width: 12vw;
       }
       .reg-btn3{
-         height: 2vh;
-         width: 7vw;
+        font-size: 1.2vw;
+        height: 5vh;
+        width: 12vw;
       }
 }
